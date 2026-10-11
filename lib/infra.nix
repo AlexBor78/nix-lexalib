@@ -10,11 +10,20 @@
 	};
 	anton = {
 		ip = "10.0.0.2";
+		public-ssh-keys = {
+			default 		= "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIG1iYtDTZQghXzAxex/wlYVn5sd8fRd4jqUU+cmL8v5k admin@anton";
+		};
 	};
 	maria = {
 		ip = "10.0.0.7";
+		public-ssh-keys = {
+			default 		= "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIC2/FKugYMnnWoqoIF7NKFOVgCer7djFBSQcedELQwFX admin@maria";
+		};
 	};
 	vds-ru1 = {
 		ip = "188.68.220.25";
+		public-ssh-keys = {
+			default 		= "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIqR/+5GGBUByz6ElM+vYd+RZ/5xXr0TWRvRVlnObE4v admin@vds-ru1";
+		};
 	};
 }
