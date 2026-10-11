@@ -1,5 +1,7 @@
 {
   outputs = { self, nixpkgs }: {
-    lexalib = import ./lib { lib = nixpkgs.lib; };
+		disks = import ./lib/disks.nix { lib = nixpkgs.lib; };
+		theme = import ./lib/theme.nix;
+		infra = import ./lib/infra.nix;
   };
 }
