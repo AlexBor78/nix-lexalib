@@ -6,6 +6,9 @@
 			to-anton		= "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIL7nuQ8+OHeb9B/LYcaAjzDcurSqpxgyvOF9aiBSubqQ alex@laptop -> anton";
 			to-maria		= "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEbgM2A1njcwmFMSJhE99yY6qcJeWTd6DUAuI84h97vH alex@laptop -> maria";
 			to-vds-ru1 	= "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIH8JTAx0ILgIYmj7Vql75ocUjLnircF4H+aTso5kSwrD alex@laptop -> vds-ru1";
+			deploy-anton		= "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDw3SqHnsZ4rtC9dNLCVi34AsBxP1aiL2dT/efLJs1MK deploy:anton";
+			deploy-maria		= "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAII21rVGtVSLkOHyNqpavEfpAfY2Ixsei7dygVHbDjK9P deploy:maria";
+			deploy-vds-ru1 	= "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIE6BKQfLUeU3vThK/3zX9hXxWFM17eeXr8Ev8jVdG4x9 deploy:vds-ru1";
 		};
 	};
 	anton = {
